@@ -10,6 +10,7 @@ let package = Package(
     ],
     products: [
         .library(name: "WLCombine", targets: ["WLCombine"]),
+        .library(name: "WLUIKitCombine", targets: ["WLUIKitCombine"]),
     ],
     targets: [
         .target(name: "WLCombine"),
